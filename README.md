@@ -1,35 +1,24 @@
-# Vitrine Urbana — site demonstrativo
+# Vitrine Urbana — site demonstrativo personalizado
 
-Este projeto é um modelo de site institucional/catalogo para uma loja de roupas fictícia. Ele foi criado como demonstração comercial do estúdio **Vértice Digital**.
+Site demonstrativo de uma loja de roupas, com identidade visual editorial em tons verde-escuro, off-white e terracota.
+
+## Dados configurados
+- Nome: Vitrine Urbana
+- Segmento: Loja de roupas
+- Descrição: Moda que cai bem no seu dia a dia.
+- WhatsApp: +55 (11) 96597-0521
+- Número configurado no link: `5511965970521`
 
 ## Arquivos
-- `index.html`: estrutura e conteúdo.
-- `styles.css`: identidade visual e layout responsivo.
-- `script.js`: menu mobile e links de atendimento pelo WhatsApp.
+- `index.html`: conteúdo, nome da loja, descrição, produtos e estrutura.
+- `styles.css`: cores, tipografia, imagens e layout responsivo.
+- `script.js`: número e mensagens do WhatsApp, botões dos produtos e menu mobile.
 
-## Antes de publicar para um cliente
-1. Abra `script.js` e substitua `5511999999999` pelo número real do WhatsApp (código do país + DDD + número, somente dígitos).
-2. Edite no `index.html` o nome da loja, textos, produtos, preços e descrição.
-3. Troque as imagens de demonstração por imagens autorizadas do cliente. As imagens atuais são carregadas do Unsplash e exigem internet.
-4. Confira preços, disponibilidade, formas de pagamento, entrega e políticas com o cliente. Não publique informações fictícias como se fossem reais.
-5. Teste todos os botões no celular e no computador.
+## Antes de usar comercialmente
+Os nomes, preços, imagens e informações dos três produtos são ilustrativos. Atualize-os conforme o estoque real da loja e use imagens autorizadas. Confira se o número do WhatsApp está correto e faça um pedido de teste.
 
-## Publicar gratuitamente pelo GitHub Pages
-1. Crie uma conta em https://github.com/ (se ainda não tiver).
-2. Clique em **New repository** e dê um nome, por exemplo `site-vitrine-urbana`.
-3. Envie os três arquivos (`index.html`, `styles.css`, `script.js`) para a raiz do repositório. O `README.md` também pode ser enviado.
-4. No repositório, abra **Settings → Pages**.
-5. Em **Build and deployment**, escolha **Deploy from a branch**.
-6. Selecione a branch `main` e a pasta `/ (root)`, depois clique em **Save**.
-7. Aguarde a publicação. O GitHub mostrará o endereço do site na mesma tela de Pages.
-
-## Alternativa: Netlify
-1. Acesse https://app.netlify.com/drop
-2. Arraste a pasta do projeto (ou uma pasta contendo os arquivos do site) para a área indicada.
-3. O Netlify gera um endereço público gratuito. Você pode personalizar o subdomínio nas configurações do site.
-
-## Observações
-- O site é estático: não possui carrinho, checkout, banco de dados ou painel administrativo.
-- O botão de pedido abre uma conversa no WhatsApp; ele não processa pagamentos.
-- Hospedagem gratuita pode ter limites e condições que mudam. Consulte as páginas oficiais antes de publicar.
-- Use apenas imagens, marcas e textos que você tenha autorização para utilizar.
+## Publicar/atualizar no GitHub Pages
+1. Extraia o ZIP.
+2. No repositório do GitHub, envie os arquivos `index.html`, `styles.css`, `script.js` e `README.md` diretamente para a raiz (não dentro de uma pasta adicional).
+3. Confirme que o Pages está configurado em **Settings → Pages → Deploy from a branch → main → /(root)**.
+4. Aguarde o deploy e atualize o site. Se necessário, faça uma atualização forçada do navegador.

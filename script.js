@@ -1,5 +1,4 @@
-// CONFIGURAÇÃO: troque pelo WhatsApp do cliente, com código do país e DDD.
-// Exemplo: 5511999999999 (não use +, espaços ou traços).
+// WhatsApp da Vitrine Urbana: Brasil (55) + DDD (11) + número.
 const WHATSAPP_NUMBER = "5511965970521";
 
 function openWhatsApp(message) {

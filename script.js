@@ -1,6 +1,6 @@
 // CONFIGURAÇÃO: troque pelo WhatsApp do cliente, com código do país e DDD.
 // Exemplo: 5511999999999 (não use +, espaços ou traços).
-const WHATSAPP_NUMBER = "5511999999999";
+const WHATSAPP_NUMBER = "5511965970521";
 
 function openWhatsApp(message) {
   const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
